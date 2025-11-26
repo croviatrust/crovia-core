@@ -29,6 +29,11 @@ These are real datasets (Hugging Face / DPI), mapped into an open, machine-reada
 
 ### 1.2 Outputs (payouts, trust, compliance)
 
+The full `.tgz` used in the live demo is served from:
+
+https://croviatrust.com/demo/crovia_dpi_demo_2025-11.tgz
+
+
 Under `demo_dpi_2025-11/output/` you will find:
 
 - `dpi_payouts_2025-11.csv`  

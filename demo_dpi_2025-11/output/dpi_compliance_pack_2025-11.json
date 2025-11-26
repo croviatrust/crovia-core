@@ -1,0 +1,19 @@
+{
+  "input_file": "/opt/crovia/data/dpi_royalty_receipts.ndjson",
+  "sha256": "0db7ace9e46ce458a7055f48b09aabc7df15f4f74a23553d3660b7de61d0916f",
+  "rows_total": 3718,
+  "rows_bad_parse": 0,
+  "rows_schema_mismatch": 0,
+  "rows_share_bad": 0,
+  "months": {
+    "2025-11": 3718
+  },
+  "providers_count": 3717,
+  "shards_count": 3717,
+  "with_eps_lines": 0,
+  "with_ci_lines": 0,
+  "gaps_count": 0,
+  "first_line": 1,
+  "last_line": 3718,
+  "created_at": "2025-11-24T17:11:21.799124Z"
+}

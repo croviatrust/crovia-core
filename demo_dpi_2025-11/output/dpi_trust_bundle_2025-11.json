@@ -1,0 +1,85 @@
+{
+  "schema": "trust_bundle.v1",
+  "profile_id": "CROVIA_M0_DPI_DEMO_v1",
+  "period": "2025-11",
+  "model_id": "crovia-dpi-demo-v1",
+  "created_at": "2025-11-24T17:21:17.336313Z",
+  "engine": {
+    "implementation": "crovia-trust-demo",
+    "version": "2025-11.dpi.v1"
+  },
+  "jurisdictions": [
+    "EU",
+    "EU AI Act"
+  ],
+  "inputs": {
+    "royalty_receipts": {
+      "path": "data/dpi_royalty_receipts.ndjson",
+      "bytes": 3585053,
+      "sha256": "0db7ace9e46ce458a7055f48b09aabc7df15f4f74a23553d3660b7de61d0916f",
+      "total_outputs": 3718,
+      "schema": "royalty_receipt.v1"
+    }
+  },
+  "artifacts": {
+    "payouts_ndjson": {
+      "path": "data/dpi_payouts_2025-11.ndjson",
+      "bytes": 792921,
+      "sha256": "9d481b8f38f58be7eafeb49b10f20d2521b0c9a4edd74d0dfab2bcb0b578a79c",
+      "schema": "payouts.v1"
+    },
+    "payouts_csv": {
+      "path": "data/dpi_payouts_2025-11.csv",
+      "bytes": 283769,
+      "sha256": "184085bfc6d317ff8b0dd6fc1969386565104ffc29cf5ecd04722c9ba9fe771e",
+      "schema": "payouts.v1",
+      "providers": 3717,
+      "total_amount": 1000000.0,
+      "gross_revenue": 1000000.0,
+      "currency": "EUR"
+    },
+    "trust_providers_csv": {
+      "path": "data/dpi_trust_providers_2025-11.csv",
+      "bytes": 559759,
+      "sha256": "159594274c1290d59b5ecfd48a3a00149427ed5e2612ffc296dbdbdc9c5d2556",
+      "kind": "trust_providers"
+    },
+    "trust_summary_md": {
+      "path": "docs/DPI_TRUST_2025-11.md",
+      "bytes": 5368,
+      "sha256": "aa9ca0071694b3df555e62b0b914e41ed6e7438481dc980f79d3b9434b931abd",
+      "kind": "trust_report"
+    },
+    "validate_report_md": {
+      "path": "docs/DPI_VALIDATE.md",
+      "bytes": 482,
+      "sha256": "44644b9347ab3cfebd5d6fac57c97eb2b963ec859a4632397ed252c3f889f1e0",
+      "kind": "validation_report"
+    },
+    "ai_act_summary_md": {
+      "path": "docs/DPI_AI_ACT_2025-11.md",
+      "bytes": 3962,
+      "sha256": "255a7d1aaa7fb7cb85522a9d84bb082f5ff81c8b48ebfb1d27df2c2c2e2e24a2",
+      "kind": "ai_act_summary"
+    },
+    "ai_act_pack_json": {
+      "path": "data/dpi_compliance_pack_2025-11.json",
+      "bytes": 484,
+      "sha256": "da070954542ea83e529ad9076f6e354ba852c36d649f4cff1a0ae6c40e633bca",
+      "kind": "ai_act_pack"
+    },
+    "compliance_gaps_csv": {
+      "path": "compliance_gaps.csv",
+      "bytes": 45,
+      "sha256": "3af3a171796009fdcaa92d9841aa7729f4a78bd772f1ee9368cfb11a1ddc7c08",
+      "kind": "compliance_gaps"
+    }
+  },
+  "stats": {
+    "total_outputs": 3718,
+    "providers": 3717,
+    "budget_eur": 1000000.0,
+    "paid_out_eur": 1000000.0
+  },
+  "attestations": []
+}

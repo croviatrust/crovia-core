@@ -157,8 +157,6 @@ Right now this is a transparent audit pack + specs + Merkle tool:
 
 ## 6. Story & contact
 
-CROVIA is built by a warehouse worker in Europe, working night shifts on the idea that:
-
 > If AI is going to eat the world,  
 > the people who create the data should be in the payout loop.
 
